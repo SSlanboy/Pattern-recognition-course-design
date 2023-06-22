@@ -1,0 +1,7 @@
+faceDR与faceDS是储存指导老师所给的标签的文件
+
+process data_totxt文件是用于将faceDR和faceDS中的标签处理成数组存储在processed_data中的py文件
+（processed_data用于bp net）
+
+feature_encode文件是用于将processed_data中的预处理过的标签数组进行编码，以便分类器的处理
+（data_label是它生成的文件，用于LeNet和ResNet）
